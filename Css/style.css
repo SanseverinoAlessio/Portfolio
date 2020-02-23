@@ -1,0 +1,112 @@
+
+*{margin: 0px; padding: 0px;font-family: 'Josefin Sans', sans-serif;
+}
+.success{color: green !important; font-size: 1rem !Important; margin-top: 0px;margin-bottom: 10px !Important}
+.error{color: red !important; font-size: 1rem !Important;margin-top: -10px !important; margin-bottom: 15px !important}
+footer{min-height: 200px; background-color: #01B39F; width: 100%;}
+body{;position: relative; height: 100%; z-index: 1}
+#Chisono{;background: linear-gradient(204deg, rgba(1,179,159,1) 1%, rgba(14,119,107,1) 59%);  height: 723px;position:relative;z-index: 5}
+#Chisono::after{ ;z-index: -1;position: absolute !important; content: ''; left: 0; top:0; right: 0; bottom: 0; background:inherit; transform: skewY(-3deg);width: 100%; height: 100%;;transform-origin: top right;}
+#Chisono h1{color: white;font-weight: 700;}
+#content{z-index: 1; position: relative;}
+#Chisono p{color: #EBEBEB; margin-bottom: 30px}
+#Chisono .green-square{margin-left: -80px; margin-top: -20px}
+#Chisono .orange-square{margin-top: 400px; margin-left: -130px; transform: rotate(25deg) !Important;}
+#myimage{box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.75);
+;animation-name: imganim; animation-duration: 1s; animation-fill-mode: forwards;
+margin-left: auto;display: block;;border-radius: 100%;
+width: 280px; height: 290px;margin-right: 20px;object-position: center;  }
+.row{height: 100%}
+.button{;border: #F6842F 1.2px solid; color: white; text-decoration: none; border-radius: 12px;padding-left: 15px; padding-right: 15px;
+  padding-top: 15px; padding-bottom: 15px;
+font-weight: 700;box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.75); transition: 0.7s;
+}
+.button:hover{background-color:#F6842F ;color: white !important; text-decoration: none;animation-name: buttonanim; animation-fill-mode: forwards; animation-duration: 0.7s;}
+#Cosafaccio{overflow: hidden;min-height: 600px; background-color: #F5F5F5; position: relative;z-index: -1}
+#Cosafaccio .container{padding-top: 120px; }
+#Cosafaccio .container h2{font-weight: 700; color: black; text-align: center;font-size: 1.9rem; position: relative;}
+#Cosafaccio .element{;margin-bottom: 30px;position: relative;width: 100%; min-height: 300px;border: solid #E7E7E7 1px; margin-top: 50px;
+border-radius: 20px; background-color: white;
+box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.44);
+}
+#Cosafaccio .orange-square{margin-left: 90%; transform: rotate(-150deg);margin-top: 200px}
+#Cosafaccio h3{font-weight: 700; font-size: 1.5rem; color: black; margin-top: 20px}
+#Cosafaccio .element p{margin-top: 10px; margin-bottom: 16px;padding-right: 10px; padding-left: 10px}
+#Cosafaccio .icon{margin-top: 15px}
+#Cosafaccio #Design-element{background-color: #01B39F;}
+#Cosafaccio #Design-element h3{color: white}
+#Cosafaccio #Design-element p{color: #F3F3F3}
+#Progetti .img-container{border-radius: 0px; overflow: hidden;height: 300px}
+#Progetti{margin-top: 0px; min-height: 600px; background-color: #07A795; position: relative;}
+#Progetti h2{text-align: center;font-weight: 700;color: white;font-size: 1.9rem; padding-top: 100px}
+#Progetti .img{width: 100%;  transition: 1s; height: 100%; object-fit:cover; object-position: center;}
+#Progetti h3{margin-top: 20px; font-weight: 700;color: black; font-size: 1.5rem; color: #01B39F; padding-left: 10px}
+#Progetti p{margin-top: 15px; color: #2A2A2A; margin-bottom: 30px; padding-left: 10px}
+#Progetti .element{min-width: 50%; float: left; margin-left: 10px;height: 500px; border-radius: 13px;
+ border:solid 1px #E2E2E2; box-shadow: 1px 4px 5px -3px rgba(0,0,0,0.75);}
+ #Progetti img{width: 90%; object-fit: cover;height: 250px; border-radius: 15px}
+ #Progetti .project{margin-top: 60px; margin-bottom: 70px; transition: 0.4s !important;width: 100% !important }
+ #Progetti .project h3{color: white; font-size: 2rem; font-weight: 700; }
+ #Progetti .project p{color: #E3E1E1; width: 90%;}
+ #Progetti .project .info{margin-left: -5px; width: 100% !important}
+ #Progetti .project:hover{transform: scale(0.9,0.9) !important; cursor: pointer;}
+ #Progetti .dark-green-square{margin-top: 200px; margin-left: -200px; transform: rotate(40deg);}
+#Progetti .img:hover{transform: scale(1.2,1.2); cursor: pointer;}
+#Contattami{background-color: #F5F5F5; min-height: 550px; z-index: -2; position:relative;}
+#Contattami h2{padding-top: 100px; color: #01B39F; font-weight: 700; font-size: 1.8rem; }
+#Contattami p{color: #282928; font-size: 1.1rem; margin-bottom: 40px}
+#Contattami input{outline: none;margin-bottom: 30px;width: 100%;display: block; border: none; background-color: transparent; border-bottom: #807A7A solid 1.4px}
+#Contattami textarea{height: 50px;outline: none;width: 100%;margin-bottom: 30px;display: block;border: none; background-color: transparent; border-bottom: #807A7A solid 1.4px}
+#Contattami .submitbutton{margin-bottom: 20px;padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;
+border:none; border-radius: 10px; background-color: #F6842F; color: white}
+footer h2{padding-top: 30px; color: white; font-weight: 700;
+font-size: 2rem;padding-bottom: 5px}
+footer h3{color: white; font-size: 1.5rem}
+footer h4{color:#E4E4E4; padding-top: 40px; font-size: 1.2rem}
+.green-square{opacity: 0.8;background-color: #44AA9F; width: 250px; height: 250px;transform: rotate(70deg);
+position: absolute;}
+.orange-square{opacity: 0.8;background-color: #DD6003; width: 250px; height: 250px;transform: rotate(70deg);position: absolute;}
+.dark-green-square{opacity: 0.8;background-color: #005E54; width: 250px; height: 250px;transform: rotate(70deg);position: absolute;}
+@media only screen and (max-width: 768px) {
+#Chisono #information{margin-left:20px}
+#Progetti .element{min-width: 100% !important; float: left; padding: 15px;height: 500px}
+#Progetti .element{margin-bottom: 100px}
+#Cosafaccio .element{margin-bottom: 20px}
+#Cosafaccio #Design-element{}
+#myimage{margin-left: -20px; margin-bottom: 30px; margin-top: 150px}
+.row{height:auto;}
+}
+
+@media only screen and (max-width: 768px) {
+#myimage{margin-top: 80px; width: 230px !important; height: 240px !important}
+}
+
+
+@media only screen and (max-width: 520px) {
+
+  #Progetti h2{text-align: left !Important;margin-left: 15px !Important}
+
+
+}
+
+@media only screen and (max-width: 320px) {
+#myimage{width: 170px !Important ; height:180px !Important;}
+}
+
+@keyframes imganim {
+0%{transform: scale(1,1);}
+40%{transform: scale(1.13,1.13);}
+100%{transform: scale(1,1);}
+}
+
+
+@keyframes buttonanim {
+0%{padding-left: 15px; padding-right: 15px;
+  padding-top: 15px; padding-bottom: 15px;}
+40%{padding-left: 20px; padding-right: 20px;
+  padding-top: 20px; padding-bottom: 20px;}
+  100%{padding-left: 15px; padding-right: 15px;
+    padding-top: 15px; padding-bottom: 15px;}
+
+
+}
