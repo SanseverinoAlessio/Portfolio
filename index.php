@@ -43,8 +43,8 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 <div id="Chisono" class="container-fluid">
 <div class="green-square"></div>
 <div style="height:100%" class="container ">
-<div style="" id="information" class="row align-items-center justify-content-center">
-<div style="" class="col-md-5 justify-content-end">
+<div style="" id="information" class="row">
+<div style="" class="col-md-5">
 <img alt="AlessioSanseverino" class="" id="myimage" src="img/MyImage.jpg"></img>
 </div>
 <div  class="col-md-6">

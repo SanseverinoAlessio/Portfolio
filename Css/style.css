@@ -4,10 +4,11 @@
 .success{color: green !important; font-size: 1rem !Important; margin-top: 0px;margin-bottom: 10px !Important}
 .error{color: red !important; font-size: 1rem !Important;margin-top: -10px !important; margin-bottom: 15px !important}
 footer{min-height: 200px; background-color: #01B39F; width: 100%;}
-body{;position: relative; height: 100%; z-index: 1}
+body{;position: relative; height: 100%; z-index: 1;}
 #Chisono{;background: linear-gradient(204deg, rgba(1,179,159,1) 1%, rgba(14,119,107,1) 59%);  height: 723px;position:relative;z-index: 5}
 #Chisono::after{ ;z-index: -1;position: absolute !important; content: ''; left: 0; top:0; right: 0; bottom: 0; background:inherit; transform: skewY(-3deg);width: 100%; height: 100%;;transform-origin: top right;}
 #Chisono h1{color: white;font-weight: 700;}
+#Chisono #information{display: flex; justify-content: center; align-items: center;height: 100%}
 #content{z-index: 1; position: relative;}
 #Chisono p{color: #EBEBEB; margin-bottom: 30px}
 #Chisono .green-square{margin-left: -80px; margin-top: -20px}
@@ -73,12 +74,18 @@ position: absolute;}
 #Progetti .element{margin-bottom: 100px}
 #Cosafaccio .element{margin-bottom: 20px}
 #Cosafaccio #Design-element{}
-#myimage{margin-left: -20px; margin-bottom: 30px; margin-top: 150px}
+#myimage{margin-left: -20px; ; margin-top: 150px}
 .row{height:auto;}
 }
 
 @media only screen and (max-width: 768px) {
-#myimage{margin-top: 80px; width: 230px !important; height: 240px !important}
+#myimage{margin-top:40px; width: 230px !important; height: 240px !important; margin-bottom: 35px;}
+}
+
+@media only screen and (max-width: 767px) {
+#myImage{margin-top: 0px !Important;margin-bottom: 35px !important }
+
+#Chisono #information{ display: block; padding-top: 50px !Important}
 }
 
 
